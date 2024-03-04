@@ -1,0 +1,71 @@
+/*CONFIGURAÇÃO GERAL*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+label{
+    color: white;
+    font-size: 14px;
+}
+
+/*CONFIGURAÇÃO DAS DIVS*/
+
+.conteiner-imagem{
+    width: 215px;
+    height: 100px;
+
+    margin-bottom: 80px;
+
+    background-color: red;
+}
+
+.div-centralizadora{
+    margin-top: 100px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.conteiner-input{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+
+}
+
+.conteiner-btn{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+/*CONFIGURAÇÃO DOS INPUTS*/
+
+.input{
+    padding: 5px;
+    
+    background-color: rgb(85, 84, 84);
+    color: white;
+
+    border: solid gray 1px;
+    border-radius: 5px;
+}
+
+.btn{
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+    
+    background-color: green;
+    color: white;
+    border: solid green 1px;
+
+    cursor: pointer;
+}
